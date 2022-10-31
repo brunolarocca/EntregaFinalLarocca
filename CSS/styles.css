@@ -51,3 +51,20 @@ main{
     background: white;
     border: red 2px solid;
 }
+
+.texto {
+    position: relative;
+    animation-name: moveToRight;
+    animation-duration: 3s;
+  }
+
+  @keyframes moveToRight {
+  0% {
+      opacity: 0;
+      left: -10000px;
+  }
+  100% {
+      opacity: 1;
+      left: 0;
+  }
+}
