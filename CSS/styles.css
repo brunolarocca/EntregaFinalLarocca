@@ -9,16 +9,15 @@
 }
 
 .logolpd {
+    animation: logomovimiento;
     transition-delay: 2s;
 }
 
-.logo:hover {
-    width: 100%;
-    background-color: red;
 
-
-
+@keyframes logomovimiento {
+    100% {background-color: aqua;}
 }
+
 
 
 
