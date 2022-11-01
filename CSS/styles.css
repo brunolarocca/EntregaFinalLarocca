@@ -8,6 +8,17 @@
     box-sizing: border-box;
 }
 
+
+.navbar-brand:hover {
+    width: 100%;
+    background-color: red;
+
+
+
+}
+
+
+
 .backnegro
 {
     background-color: black;
