@@ -8,16 +8,9 @@
     box-sizing: border-box;
 }
 
-.logolpd {
-    animation: logomovimiento;
-    transition-delay: 2s;
+.cajamarcela {
+    transform: rotate(90);
 }
-
-
-@keyframes logomovimiento {
-    100% {background-color: aqua;}
-}
-
 
 
 
