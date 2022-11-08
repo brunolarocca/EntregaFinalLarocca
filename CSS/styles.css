@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.fondoweb {
+    background-image: url(../img/fondonegroris.jpg); border-image-repeat: round;
+}
+
 
 .animacionescala {
     transition: 1s;
@@ -16,6 +20,15 @@
 .animacionescala:hover {
     transform: scale(1.05);
 }
+
+.animacionescala2 {
+    transition: 1s;
+}
+
+.animacionescala2:hover {
+    transform: scale(1.2);
+}
+
 
 
 .backnegro  
