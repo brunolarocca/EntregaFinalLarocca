@@ -1,0 +1,12 @@
+.animacionescala {
+    transition: 1s;
+
+    &:hover {transform: scale(1.05);}
+}
+
+.animacionescala2 {
+    transition: 1s;
+
+    &:hover {transform: scale(1.2);}
+}
+

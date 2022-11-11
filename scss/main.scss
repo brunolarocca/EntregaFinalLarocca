@@ -1,3 +1,33 @@
-h1 {
-    color: red;
+@import "./utils/variables";
+@import "./utils/mixin";
+@import "./base/animaciones";
+@import "./pages/index";
+@import "./pages/staff";
+
+
+%fondoweb {
+    background-image: url(../img/fondonegroris.jpg); border-image-repeat: round;
 }
+
+
+
+
+
+%botonrojo {
+    background-color: red;
+    border: white 2px solid;
+    cursor: pointer;
+}
+
+.botonrojo {
+    @extend %botonrojo;
+    transform: scale (1.05)
+    
+    }
+
+    .botongris {
+        @extend %botonrojo;
+        background-color: aqua;
+        
+    }
+
