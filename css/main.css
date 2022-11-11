@@ -1,27 +1,8 @@
-.animacionescala {
-  transition: 1s;
-}
-.animacionescala:hover {
-  transform: scale(1.05);
+.fondoweb {
+  background-image: url(../img/fondonegroris.jpg);
+  border-image-repeat: round;
 }
 
-.animacionescala2 {
-  transition: 1s;
-}
-.animacionescala2:hover {
-  transform: scale(1.2);
-}
-
-.botongris, .botonrojo {
-  background-color: red;
-  border: white 2px solid;
-  cursor: pointer;
-}
-
-.botonrojo {
-  transform: scale 1.05;
-}
-
-.botongris {
-  background-color: aqua;
+.tituloweb {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

@@ -29,3 +29,26 @@
     background-color: white;
     color: black;
 }
+
+.botonrojo
+{
+    background-color: red;
+    border: white 2px solid;
+    cursor: pointer;
+}
+
+.botonrojo:hover{
+    color: red;
+    background: white;
+    border: red 2px solid;
+}
+
+.texto {
+    position: relative;
+    animation-name: moveToRight;
+    animation-duration: 3s;
+  }
+
+  .sombra {
+    box-shadow: 0.1px 0.1px 1px;
+  }

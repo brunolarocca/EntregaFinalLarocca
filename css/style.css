@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&display=swap");
+.animacionescala {
+  transition: 1s;
+}
+
+.animacionescala:hover {
+  transform: scale(1.05);
+}
+
+.animacionescala2 {
+  transition: 1s;
+}
+
+.animacionescala2:hover {
+  transform: scale(1.2);
+}
+
+.backnegro {
+  background-color: black;
+}
+
+.backrojo {
+  background-color: red;
+}
+
+.backgris {
+  background-color: rgb(17, 15, 15);
+}
+
+.fondoweb {
+  background-image: url(../img/fondonegroris.jpg);
+  border-image-repeat: round;
+}
+
+.botongris, .botonrojo {
+  background-color: red;
+  border: white 2px solid;
+  cursor: pointer;
+}
+
+.botonrojo {
+  transform: scale 1.05;
+}
+
+.botongris {
+  background-color: aqua;
+}
+
+.tituloweb {
+  display: none;
+}
+
+.ff-candal {
+  font-family: "candal", sans-serif;
+}
+
+* {
+  font-family: "Candal", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card_section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.card {
+  background-color: black;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_footer a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 1.2rem;
+  padding: 0.7rem;
+  display: inline-block;
+  transition: 2.5s;
+  font-size: 0.7rem;
+}
+
+.card_footer a:hover {
+  background-color: white;
+  color: black;
+}
+
+.botonrojo {
+  background-color: red;
+  border: white 2px solid;
+  cursor: pointer;
+}
+
+.botonrojo:hover {
+  color: red;
+  background: white;
+  border: red 2px solid;
+}
+
+.texto {
+  position: relative;
+  -webkit-animation-name: moveToRight;
+          animation-name: moveToRight;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.sombra {
+  box-shadow: 0.1px 0.1px 1px;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+.tituloweb {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

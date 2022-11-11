@@ -1,12 +1,28 @@
+
 .animacionescala {
     transition: 1s;
-
-    &:hover {transform: scale(1.05);}
+}
+.animacionescala:hover {
+    transform: scale(1.05);
 }
 
 .animacionescala2 {
     transition: 1s;
-
-    &:hover {transform: scale(1.2);}
+}
+.animacionescala2:hover {
+    transform: scale(1.2);
 }
 
+.backnegro  {
+    background-color: black;
+}
+
+.backrojo
+{
+    background-color: red;
+}
+
+.backgris
+{
+    background-color: rgb(17, 15, 15);
+}
