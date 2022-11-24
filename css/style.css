@@ -93,6 +93,9 @@
   color: white;
 }
 
+.sombra_texto
+{text-shadow: 5px 2px 30px;}
+
 .tituloweb {
   display: none;
 }/*# sourceMappingURL=style.css.map */
