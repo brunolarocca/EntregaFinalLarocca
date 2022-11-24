@@ -3,3 +3,6 @@ node_modules
 
 # Ignora los archivos json
 *.json
+
+# Ignora json
+package.json
