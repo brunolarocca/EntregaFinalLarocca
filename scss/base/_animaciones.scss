@@ -1,28 +1,32 @@
-
 .animacionescala {
     transition: 1s;
-}
-.animacionescala:hover {
-    transform: scale(1.05);
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .animacionescala2 {
     transition: 1s;
-}
-.animacionescala2:hover {
-    transform: scale(1.2);
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
-.backnegro  {
+
+.backnegro {
     background-color: black;
 }
 
-.backrojo
-{
+.backrojo {
     background-color: red;
 }
 
-.backgris
-{
+.backgris {
     background-color: rgb(17, 15, 15);
 }
+
+.sombra_texto
+{text-shadow: 5px 2px 30px;}
+

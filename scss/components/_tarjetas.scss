@@ -14,33 +14,17 @@
     flex-wrap: wrap;
 }
 
-.card_footer a{
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    border-radius: 1.2rem;
-    padding: 0.7rem;
-    display: inline-block;
-    transition: 2.5s;
-    font-size: 0.7rem;
-}
-
-.card_footer a:hover {
-    background-color: white;
-    color: black;
-}
-
 .botonrojo
 {
     background-color: red;
     border: white 2px solid;
     cursor: pointer;
-}
 
-.botonrojo:hover{
+&:hover{
     color: red;
     background: white;
     border: red 2px solid;
+}
 }
 
 .texto {

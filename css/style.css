@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Candal&display=swap");
+
+
 .animacionescala {
   transition: 1s;
 }
@@ -32,20 +34,6 @@
   border-image-repeat: round;
 }
 
-.botongris, .botonrojo {
-  background-color: red;
-  border: white 2px solid;
-  cursor: pointer;
-}
-
-.botonrojo {
-  transform: scale 1.05;
-}
-
-.botongris {
-  background-color: aqua;
-}
-
 .tituloweb {
   display: none;
 }
@@ -75,22 +63,6 @@
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-}
-
-.card_footer a {
-  text-decoration: none;
-  color: white;
-  background-color: red;
-  border-radius: 1.2rem;
-  padding: 0.7rem;
-  display: inline-block;
-  transition: 2.5s;
-  font-size: 0.7rem;
-}
-
-.card_footer a:hover {
-  background-color: white;
-  color: black;
 }
 
 .botonrojo {
